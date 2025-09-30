@@ -1,7 +1,13 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Hello world!
+#### Finished
+All Required work completed.
+
+~~Attach camera to spine(Jaw_end)~~Dizzy!!!
+Added some random plane to climb.
+
+Increase move speed and turn speed.
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.

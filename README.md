@@ -4,7 +4,8 @@
 #### Finished
 All Required work completed.
 
-~~Attach camera to spine(Jaw_end)~~Dizzy!!!
+~~Attach camera to spine(Jaw_end)~~ Dizzy!!!
+
 Added some random plane to climb.
 
 Increase move speed and turn speed.

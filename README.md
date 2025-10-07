@@ -11,7 +11,11 @@ Added some random plane to climb.
 Increase move speed and turn speed.
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1: r, g, and b is the decimal between 0 and 1, so you need to use float.
+
+2: _bounce is a natural numbers record how many times the ball touch the cat or wall, so you need to use int.
+
+3: 0.1 is a **double** , not a **float**. 0.1f is the **float**. After every line of code, you will need to add a ";".
 
 ## Open-Source Assets
 ### W1

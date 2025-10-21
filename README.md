@@ -20,11 +20,24 @@ Increase move speed and turn speed.
 ### W3
 
 #1
+
 DidPlayerHitBeat method need a bool return, show did player hit the beat. For parameters need a int show number of the beat, a float show when the player hit the screen. 
 
 1:Class is a kind of thing like a mold, you can use it tu create different things. Component is the thing you created with the mlod like a cake. The member variables is the different thing on thing you create like different cream you use. And method is like eat this cake.
 
 2:Because you only multiplie the color and not reset.
+
+### W4
+
+#4
+
+Line 5: this line declares a member variable named _moveSpeed, and the type is float.
+
+Line 22: this line declares a local variable named translation, and the type is float. the value is calculated by multiplying the _moveSpeed by deltaTime and vertical input axis.
+
+Line 25: this line is calling a method Translate form Transform class, and passing the translation variable as an argument.
+
+1: Cat and SoccerBall need a rigidbody component, and the Score need Is Trigger on. Because Cat and SoccerBall need physics, and the Score need to detect weatrher the ball touch it.
 
 ## Open-Source Assets
 ### W1

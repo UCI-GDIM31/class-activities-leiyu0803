@@ -39,6 +39,8 @@ Line 25: this line is calling a method Translate form Transform class, and passi
 
 1: Cat and SoccerBall need a rigidbody component, and the Score need Is Trigger on. Because Cat and SoccerBall need physics, and the Score need to detect weatrher the ball touch it.
 
+2: The cat need a fixed rotation.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

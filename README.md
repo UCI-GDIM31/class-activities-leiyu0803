@@ -41,6 +41,22 @@ Line 25: this line is calling a method Translate form Transform class, and passi
 
 2: The cat need a fixed rotation.
 
+### W5
+
+#### Activity 1:
+
+Q: If multiple components of the same type exist on an object, which one will GetComponent<>() return?
+
+A: GetComponent<>() does not guarantee which component it will return. Its behavior is to ¡°return the first component of that type it finds.¡±
+
+#### Activity 2:
+
+1: Two member variables: _navMeshAgent(NavMeshAgent), _target(Transform).
+
+2: The class need a Start method.
+
+3: In the Start method, assign the _navMeshAgent variable by GetComponent<NavMeshAgent>(), and use _navMeshAgent.SetDestination(_target.position);.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

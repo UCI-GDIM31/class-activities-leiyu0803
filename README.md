@@ -57,6 +57,10 @@ A: GetComponent<>() does not guarantee which component it will return. Its behav
 
 3: In the Start method, assign the _navMeshAgent variable by GetComponent<NavMeshAgent>(), and use _navMeshAgent.SetDestination(_target.position);.
 
+### W6
+
+BatW6 will need a float as speed, a Transform as target(player), a bool to decide should bat chase the player. A StartChase to set the bool variable to true, a StopChase to set the bool variable to false, and in the Update, move towards player if the bool variable is true.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

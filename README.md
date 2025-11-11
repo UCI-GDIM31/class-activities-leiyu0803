@@ -61,6 +61,12 @@ A: GetComponent<>() does not guarantee which component it will return. Its behav
 
 BatW6 will need a float as speed, a Transform as target(player), a bool to decide should bat chase the player. A StartChase to set the bool variable to true, a StopChase to set the bool variable to false, and in the Update, move towards player if the bool variable is true.
 
+### W7
+
+1: [I Work in UI part](https://docs.google.com/document/d/1RbOJV14KBQmt5sQBiYGuODTakWBMyocLs59OTx8vLRQ)
+
+2:The original code uses Vector3.forward, so movement always occurs along the global forward direction rather than along Muskrat's current facing direction.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
